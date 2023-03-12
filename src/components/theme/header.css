@@ -1,0 +1,20 @@
+.header-links {
+    display: flex;
+    align-items: center;
+  }
+  
+  .header-link {
+    margin-right: 24px;
+    font-size: 16px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    transition: color 0.3s ease-in-out;
+    font-family: 'Open Sans', sans-serif;
+    color: #000;
+    text-decoration: none;
+  }
+  
+  .header-link:hover {
+    color: #1890ff;
+  }
